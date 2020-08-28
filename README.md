@@ -1,5 +1,8 @@
- # ReactJs Crud Appication:
+ # ReactJs Crud Appication with Automated Workflow:
  A simple with simple user interfaced CRUD application.
+ 
+ ## Automated Deploy
+ - Deply Automated on github Push on surge server with github actions workflow
  
  ## Components
  
