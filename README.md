@@ -1,5 +1,5 @@
  # ReactJs Crud Appication:
- A simple with a simple user interface CRUD application.
+ A simple with simple user interfaced CRUD application.
  
  ## Components
  
