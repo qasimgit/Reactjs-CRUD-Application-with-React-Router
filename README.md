@@ -1,10 +1,10 @@
- * ReactJs Crud Appication:
+ *ReactJs Crud Appication:
  A simple with a simple user interface CRUD application.
  
- ** Components
+ **Components
  
- *** Layout
- **** Navbar
+ ***Layout
+ ****Navbar
  
  *** Pages
  **** Home
