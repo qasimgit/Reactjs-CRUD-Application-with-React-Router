@@ -1,30 +1,30 @@
- *ReactJs Crud Appication:
+ # ReactJs Crud Appication:
  A simple with a simple user interface CRUD application.
  
- **Components
+ ## Components
  
- ***Layout
- ****Navbar
+ ### Layout
+ - Navbar
  
- *** Pages
- **** Home
- **** About
- **** Contact
- **** NotFound
+ ### Pages
+ - Home
+ - About
+ - Contact
+ - NotFound
  
- *** Users
- **** AddUser
- **** ViewUser
- **** EditUser
- **** DeleteUser
+ ### Users
+ - AddUser
+ - ViewUser
+ - EditUser
+ - DeleteUser
  
- ** Packages
- *** React Router-V6
- *** History
- *** Bootstrap-React
- *** Axios
- *** Json-server
- *** Concurrently-React
+ ## Packages
+ - React Router-V6
+ - History
+ - Bootstrap-React
+ - Axios
+ - Json-server
+ - Concurrently-React
  
  
  
