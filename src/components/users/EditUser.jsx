@@ -5,7 +5,7 @@ import axios from "axios";
 export const EditUser = () => {
   useEffect(() => {
     loadUserFromApi();
-  }, []);
+  });
   const { id } = useParams();
 
   let navigate = useNavigate();

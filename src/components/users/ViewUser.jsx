@@ -1,16 +1,14 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import axios from "axios";
-import { unstable_renderSubtreeIntoContainer } from "react-dom";
 
 export const ViewUser = () => {
   const [userData, setUserData] = useState({});
   const { id } = useParams();
-  const navigate = useNavigate();
 
   useEffect(() => {
     loadData();
-  }, []);
+  });
 
   const loadData = async () => {
     const result = await axios.get(`http://localhost:3003/users/${id}`);

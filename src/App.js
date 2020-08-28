@@ -10,7 +10,6 @@ import {
   Contact,
   About,
   AddUser,
-  User,
   EditUser,
   NotFound,
   ViewUser,

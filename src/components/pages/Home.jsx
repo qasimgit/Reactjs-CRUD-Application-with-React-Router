@@ -1,15 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
-import { User } from "../users/User";
-import swal from "sweetalert";
 
 export const Home = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
     apiData();
-  }, []);
+  });
 
   const apiData = async () => {
     const result = await axios.get("http://localhost:3003/users");
@@ -19,26 +17,6 @@ export const Home = () => {
   const deleteUser = async (id) => {
     await axios.delete(`http://localhost:3003/users/${id}`);
   };
-
-  //   const  = () => {
-  //     swal({
-  //       title: "Are you sure?",
-  //       text: "Once deleted, you will not be able to recover this user!",
-  //       icon: "warning",
-  //       buttons: true,
-  //       dangerMode: true,
-  //     }).then((willDelete) => {
-  //       if (willDelete) {
-
-  //         swal("Poof! Your user Data has been deleted!", {
-  //           icon: "success",
-  //         });
-  //       } else {
-  //         swal("Your user Data is safe!");
-  //       }
-  //     });
-
-  //   };
 
   return (
     <div className="container">
