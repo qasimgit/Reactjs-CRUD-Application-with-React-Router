@@ -26,5 +26,8 @@
  - Json-server
  - Concurrently-React
  
+ ##Crud Application
+ ![Capture](https://user-images.githubusercontent.com/55051250/91601740-99e30100-e983-11ea-8815-97325181fd4d.JPG)
+
  
  
